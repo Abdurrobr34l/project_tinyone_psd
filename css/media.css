@@ -13,7 +13,97 @@ header {
     text-align: right;
 }
 /* header end  */
-        
+
+/* slider start  */
+.slider {
+    padding-bottom: 45px;
+}
+.slider_t h1 {
+    font-size: 25px;
+}
+.slider_t .p1 {
+    margin: 10px 0;
+    padding-right: 0;
+    font-size: 17px;
+}
+.slider_t .p2 {
+    margin: 0 0 10px;
+    padding-right: 0px;
+}
+.indi_cus {
+    bottom: -53px;
+}
+.list-inline-item:not(:last-child) {
+    margin-right: 0px;
+}
+/* slider end  */
+
+/* feature start  */
+.feature_colm {
+    margin-top: 30px;
+}
+.feature {
+    padding: 50px 0 70px;
+}
+.common_title_para {
+    padding: 0 0px;
+    font-size: 16px;
+    line-height: 25px;
+}
+.feature_text {
+    text-align: center;
+}
+.feature_icon i {
+    font-size: 35px;
+}
+.feature_text h2 {
+    margin-bottom: 5px;
+}
+.feature_text p {
+    letter-spacing: 0px;
+    line-height: 20px;
+}
+#only_spacing .lemon {
+    font-size: 35px;
+}
+/* feature end  */
+
+/* contact us start  */
+.contact_form {
+    margin: 45px 0 40px;
+}
+.contact_input {
+    padding: 10px 10px;
+    height: 45px;
+}
+.contact_button {
+    height: 45px;
+}
+.contact_icons li {
+    margin-right: 10px !important;
+    width: 40px !important;
+    height: 43px;
+}
+.contact_icons li i {
+    font-size: 30px;
+}
+/* contact us end  */
+ 
+/* footer start  */
+.contact {
+    padding: 50px 0 60px;
+}
+.c_for_f_c {
+    padding: 100px 0 60px;     /* this is the common class used to give common padding in fiture ans coontact section*/
+}
+.footer_1 {
+    text-align: center;
+}
+.footer_2 {
+    padding-top: 40px;
+    text-align: center;
+}
+/* footer end  */
 }
 
 /* -------------------------------EXTRA SMALL----------------------------------- */
@@ -30,7 +120,85 @@ header {
     text-align: right;
 }
 /* header end  */
-    
+
+/* slider start  */
+.slider {
+    padding-bottom: 50px;
+}
+.slider_t .p1 {
+    margin: 10px 0;
+    padding-right: 0px;
+    font-size: 16px;
+}
+.slider_t .p2 {
+    margin: 0 0 10px;
+    padding-right: 0px;
+}
+.indi_cus {
+    bottom: -50px;
+}
+/* slider end  */
+
+/* feature start  */
+.feature_colm {
+    margin-top: 30px;
+}
+.feature {
+    padding: 50px 0 70px;
+}
+.common_title_para {
+    padding: 0 0px;
+    font-size: 18px;
+    line-height: 23px;
+}
+.feature_text {
+    text-align: center;
+}
+.feature_icon i {
+    font-size: 35px;
+}
+.feature_text h2 {
+    margin-bottom: 5px;
+}
+.feature_text p {
+    letter-spacing: 0px;
+    line-height: 20px;
+}
+#only_spacing .lemon {
+    font-size: 35px;
+}
+/* feature end  */
+
+/* contact us start  */
+.contact_form {
+    margin: 35px 0 55px;
+}
+.contact_input {
+    padding: 10px 10px;
+    height: 45px;
+}
+.contact_button {
+    height: 45px;
+}
+.contact_icons li {
+    margin-right: 20px !important;
+    width: 45px !important;
+    height: 45px;
+}
+.contact_icons li i {
+    font-size: 30px;
+}
+/* contact us end  */
+
+/* footer start  */
+.footer_1 {
+    text-align: center;
+}
+.footer_2 {
+    padding-top: 40px;
+    text-align: center;
+}
+/* footer end  */
 }
 
 /* -------------------------------SMALL----------------------------------- */
@@ -45,8 +213,43 @@ header {
     padding: 10px 0 0 !important;
     text-align: right;
 }
+.slider_t h1 {
+    font-size: 33px;
+}
+.slider_t .p1 {
+    padding-right: 0px;
+}
+.slider_t .p2 {
+    padding-right: 0px;
+    line-height: 20px;
+}
 /* header end  */
 
+/* feature start  */
+.feature {
+    padding: 80px 0 100px;      /*  main  */
+}
+.common_title_para {
+    padding: 0 0px;
+}
+.feature_colm {
+    margin-top: 50px;
+}
+/* this two id is used to manage spacing of icon and text  */
+#only_spacing {
+    margin-top: -10px;
+    padding-right: 0;
+}
+#only_spacing2 {
+    padding-left: 0;
+}
+/* feature end  */
+
+/* contact us start */
+.contact_form {
+    margin: 35px 0 55px;
+}
+/* contact us end  */
 }
 
 /* -------------------------------MD----------------------------------- */
@@ -54,20 +257,84 @@ header {
 /* -------------------------------LG----------------------------------- */
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/* header start  */
+.menu ul li a {
+    padding: 0 33px !important;   
+
+}
+/* header end  */
+
+/* feature start */
+.common_title_para {
+    padding: 0 0;
+}
+/* this two id is used to manage spacing of icon and text  */
+#only_spacing {
+    margin-top: -10px;
+    padding-right: 0;
+}
+#only_spacing2 {
+    padding-left: 0;
+}
+/* feature end  */
+        
+/* footer start  */
+.footer {
+    padding-bottom: 70px;
+    background-color: #010101;
+}
+.footer_2 ul {
+    padding-left: 0;
+}
+/* footer end  */
+
+}
 
 /* -------------------------------LG----------------------------------- */
 
 /* -------------------------------XL----------------------------------- */
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) and (max-width: 1399.98px) {}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+/* feature start */
+.common_title_para {
+    padding: 0 40px;
+}
+/* this two id is used to manage spacing of icon and text  */
+#only_spacing {
+    margin-top: -10px;
+    padding-right: 0;
+}
+#only_spacing2 {
+    padding-left: 0;
+}
+/* feature end  */
+        
+}
 
 /* -------------------------------XL----------------------------------- */
 
 /* -------------------------------XXL----------------------------------- */
 
 /* Extra extra large devices (large desktops, 1400px and up) */
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {
+
+/* feature start */
+.common_title_para {
+    padding: 0 80px;
+}
+/* this two id is used to manage spacing of icon and text  */
+#only_spacing {
+    margin-top: -10px;
+    padding-right: 0;
+}
+#only_spacing2 {
+    padding-left: 0;
+}
+/* feature end  */
+    
+}
 
 /* -------------------------------XXL----------------------------------- */
